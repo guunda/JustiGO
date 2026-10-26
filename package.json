@@ -1,0 +1,28 @@
+{
+  "name": "justigo",
+  "version": "1.0.0",
+  "description": "Justigo — AI-Powered Legal Awareness Platform for Indian Citizens & Law Students",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test-providers": "node backend/scripts/testProviders.js"
+  },
+  "keywords": [
+    "justigo",
+    "legal-tech",
+    "ai",
+    "gemma",
+    "ollama",
+    "indian-law",
+    "legal-awareness",
+    "nalsa"
+  ],
+  "author": "TechTitans (Justigo)",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
